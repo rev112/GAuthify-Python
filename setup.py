@@ -8,7 +8,7 @@ setup(name='gauthify',
       author_email='support@gauthify.com',
       license='MIT',
       install_requires=[
-          'requests==0.14.1',
+          'requests>=0.14.1',
       ],
       packages=['gauthify'],
       zip_safe=False)
